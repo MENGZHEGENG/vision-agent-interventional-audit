@@ -1,0 +1,2585 @@
+{
+  "families": {
+    "color_count": {
+      "base": {
+        "accuracy": 0.7777777777777778,
+        "by_edit_kind": {
+          "answer_changing": {
+            "accuracy": 0.7916666666666666,
+            "correct": 76,
+            "count": 96
+          },
+          "answer_preserving": {
+            "accuracy": 0.7708333333333334,
+            "correct": 74,
+            "count": 96
+          },
+          "clean": {
+            "accuracy": 0.7708333333333334,
+            "correct": 74,
+            "count": 96
+          }
+        },
+        "invalid_range": 0
+      },
+      "control_direct": {
+        "consensus": {
+          "ci95": [
+            0.009259259259259259,
+            0.0636574074074074
+          ],
+          "draws": 20000,
+          "groups": 96,
+          "interval": "two-sided percentile interval over 96 scene-group means",
+          "mean": 0.03587962962962963,
+          "seed": 6288
+        },
+        "independent_8b": {
+          "ci95": [
+            0.04513888888888889,
+            0.11574074074074074
+          ],
+          "draws": 20000,
+          "groups": 96,
+          "interval": "two-sided percentile interval over 96 scene-group means",
+          "mean": 0.0798611111111111,
+          "seed": 6293
+        },
+        "qwen_8b": {
+          "ci95": [
+            0.02314814814814815,
+            0.07291666666666667
+          ],
+          "draws": 20000,
+          "groups": 96,
+          "interval": "two-sided percentile interval over 96 scene-group means",
+          "mean": 0.0474537037037037,
+          "seed": 6286
+        }
+      },
+      "fit_seeds": [
+        20261006,
+        20261008,
+        20261010
+      ],
+      "primary_summary": {
+        "independent": {
+          "delta_vs_base_max": 0.03587962962962963,
+          "delta_vs_base_mean_across_selection_sets": 0.010416666666666666,
+          "delta_vs_base_min": -0.006944444444444445,
+          "no_population_level_interval_reported": true,
+          "positive_delta_count": 4,
+          "selection_seed_count": 5,
+          "selection_seeds": [
+            20261004,
+            20261013,
+            20261014,
+            20261015,
+            20261016
+          ]
+        },
+        "independent_minus_same_model": {
+          "maximum": 0.08101851851851852,
+          "mean_across_selection_sets": 0.015277777777777779,
+          "minimum": -0.020833333333333332,
+          "no_population_level_interval_reported": true,
+          "per_selection_set": {
+            "20261004": {
+              "ci95": [
+                0.006944444444444444,
+                0.04976851851851852
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.027777777777777776,
+              "seed": 20266021
+            },
+            "20261013": {
+              "ci95": [
+                -0.04050925925925926,
+                0.013888888888888888
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.01273148148148148,
+              "seed": 20266030
+            },
+            "20261014": {
+              "ci95": [
+                -0.041666666666666664,
+                -0.0011574074074074073
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.020833333333333332,
+              "seed": 20266031
+            },
+            "20261015": {
+              "ci95": [
+                0.041666666666666664,
+                0.12152777777777778
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.08101851851851852,
+              "seed": 20266032
+            },
+            "20261016": {
+              "ci95": [
+                -0.020833333333333332,
+                0.02199074074074074
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.0011574074074074073,
+              "seed": 20266033
+            }
+          },
+          "positive_count": 3
+        },
+        "random": {
+          "delta_vs_base_max": 0.06018518518518518,
+          "delta_vs_base_mean_across_selection_sets": -0.010648148148148148,
+          "delta_vs_base_min": -0.0949074074074074,
+          "no_population_level_interval_reported": true,
+          "positive_delta_count": 2,
+          "selection_seed_count": 5,
+          "selection_seeds": [
+            20261004,
+            20261013,
+            20261014,
+            20261015,
+            20261016
+          ]
+        },
+        "random_minus_same_model": {
+          "maximum": 0.03356481481481481,
+          "mean_across_selection_sets": -0.005787037037037037,
+          "minimum": -0.03472222222222222,
+          "no_population_level_interval_reported": true,
+          "per_selection_set": {
+            "20261004": {
+              "ci95": [
+                0.010416666666666666,
+                0.05671296296296296
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.03356481481481481,
+              "seed": 20265921
+            },
+            "20261013": {
+              "ci95": [
+                -0.05439814814814815,
+                -0.016203703703703703
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.03472222222222222,
+              "seed": 20265930
+            },
+            "20261014": {
+              "ci95": [
+                -0.009259259259259259,
+                0.016203703703703703
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.003472222222222222,
+              "seed": 20265931
+            },
+            "20261015": {
+              "ci95": [
+                -0.037037037037037035,
+                0.005787037037037038
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.015046296296296295,
+              "seed": 20265932
+            },
+            "20261016": {
+              "ci95": [
+                -0.03009259259259259,
+                -0.0023148148148148147
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.016203703703703703,
+              "seed": 20265933
+            }
+          },
+          "positive_count": 2
+        },
+        "same_model": {
+          "delta_vs_base_max": 0.056712962962962965,
+          "delta_vs_base_mean_across_selection_sets": -0.004861111111111113,
+          "delta_vs_base_min": -0.07986111111111112,
+          "no_population_level_interval_reported": true,
+          "positive_delta_count": 3,
+          "selection_seed_count": 5,
+          "selection_seeds": [
+            20261004,
+            20261013,
+            20261014,
+            20261015,
+            20261016
+          ]
+        }
+      },
+      "scene_groups": 96,
+      "sets": {
+        "consensus": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.8043981481481483,
+            "delta_vs_base": {
+              "ci95": [
+                -0.010416666666666666,
+                0.06597222222222222
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.026620370370370367,
+              "seed": 20263742
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.8020833333333334,
+              "20261008": 0.8055555555555556,
+              "20261010": 0.8055555555555556
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 2,
+                "1": 14,
+                "2": 9,
+                "3": 14,
+                "4": 9
+              },
+              "correct_targets": 40,
+              "edit_type_distribution": {
+                "answer_changing": 18,
+                "answer_preserving": 11,
+                "clean": 19
+              },
+              "incorrect_targets": 8,
+              "rule": "consensus",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "8e1a5934f778d6cc985c635fbe417c31344295821b2f742ce867e56724ec1389",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8333333333333334,
+              "selection_seed": 20261004,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 2,
+                "1": 14,
+                "2": 10,
+                "3": 20,
+                "4": 2
+              },
+              "update_examples_sha256": "30360c9728fbfe6ebc10aee104a1f5943fe8cd28419d280ffa5661c4377f566c",
+              "update_manifest_sha256": "0715d567fa407e0e0ea5b37015e9e96bb16c6f76eb66ed679c2dc4d141496a45"
+            },
+            "selection_seed": 20261004
+          }
+        },
+        "independent": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.7962962962962963,
+            "delta_vs_base": {
+              "ci95": [
+                -0.015046296296296294,
+                0.05439814814814815
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.01851851851851852,
+              "seed": 20263744
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.7847222222222222,
+              "20261008": 0.8194444444444444,
+              "20261010": 0.7847222222222222
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 3,
+                "1": 13,
+                "2": 9,
+                "3": 14,
+                "4": 9
+              },
+              "correct_targets": 40,
+              "edit_type_distribution": {
+                "answer_changing": 17,
+                "answer_preserving": 12,
+                "clean": 19
+              },
+              "incorrect_targets": 8,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "d6bb20f4610add512553e3c57e93c5bd3d389bb3364d6df762211fac3012cdcb",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8333333333333334,
+              "selection_seed": 20261004,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 3,
+                "1": 13,
+                "2": 10,
+                "3": 20,
+                "4": 2
+              },
+              "update_examples_sha256": "42ecf36cc5df2303e88e4d816223ef0aeba92018a6e93903337377ebac9d0c78",
+              "update_manifest_sha256": "df30335cc06e738e70f8df4cce9e65ba2e2143b562bd9d63d65756e51cbb060f"
+            },
+            "selection_seed": 20261004
+          },
+          "20261013": {
+            "accuracy_mean_over_fit_seeds": 0.7708333333333334,
+            "delta_vs_base": {
+              "ci95": [
+                -0.03935185185185185,
+                0.025462962962962965
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.006944444444444445,
+              "seed": 20263753
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.7708333333333334,
+              "20261008": 0.71875,
+              "20261010": 0.8229166666666666
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 2,
+                "1": 14,
+                "2": 13,
+                "3": 13,
+                "4": 6
+              },
+              "correct_targets": 38,
+              "edit_type_distribution": {
+                "answer_changing": 15,
+                "answer_preserving": 16,
+                "clean": 17
+              },
+              "incorrect_targets": 10,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "b1abf8db0f074281820b825a4b8bdeed4b8e461a54c2e9b38320d529bf888acb",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7916666666666666,
+              "selection_seed": 20261013,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 2,
+                "1": 14,
+                "2": 14,
+                "3": 17,
+                "4": 1
+              },
+              "update_examples_sha256": "0252a569723adaf35896f034954c0849cdc9f0fcebfefed41865a60906453ca5",
+              "update_manifest_sha256": "c27394d0b94caa51d120058884e7579c51e12b15f0d80e53bec01acae4cfdb4b"
+            },
+            "selection_seed": 20261013
+          },
+          "20261014": {
+            "accuracy_mean_over_fit_seeds": 0.8136574074074074,
+            "delta_vs_base": {
+              "ci95": [
+                0.006944444444444443,
+                0.06712962962962964
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.03587962962962963,
+              "seed": 20263754
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.7743055555555556,
+              "20261008": 0.8298611111111112,
+              "20261010": 0.8368055555555556
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 0,
+                "1": 16,
+                "2": 15,
+                "3": 9,
+                "4": 8
+              },
+              "correct_targets": 41,
+              "edit_type_distribution": {
+                "answer_changing": 19,
+                "answer_preserving": 13,
+                "clean": 16
+              },
+              "incorrect_targets": 7,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "1ed4845b4858ab07a9a2c6c132c08170aa467646a548e3323d17cf24c0e2e951",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8541666666666666,
+              "selection_seed": 20261014,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 0,
+                "1": 17,
+                "2": 16,
+                "3": 11,
+                "4": 4
+              },
+              "update_examples_sha256": "2d8a596379382056b0fe4aad38ba4b84451bf95c576de53f40046a1559d076e2",
+              "update_manifest_sha256": "719066fd03fe0bc678bf1dc9ced9a2db75628dfefeabfbe288ebc1d633dd3bc1"
+            },
+            "selection_seed": 20261014
+          },
+          "20261015": {
+            "accuracy_mean_over_fit_seeds": 0.7789351851851851,
+            "delta_vs_base": {
+              "ci95": [
+                -0.032407407407407406,
+                0.034722222222222224
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.0011574074074074063,
+              "seed": 20263755
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.8020833333333334,
+              "20261008": 0.71875,
+              "20261010": 0.8159722222222222
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 2,
+                "1": 15,
+                "2": 12,
+                "3": 10,
+                "4": 9
+              },
+              "correct_targets": 39,
+              "edit_type_distribution": {
+                "answer_changing": 15,
+                "answer_preserving": 16,
+                "clean": 17
+              },
+              "incorrect_targets": 9,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "f7c3612ade28bac200e37aff9e087b851bcf38ec31613985bb73c2cfe5023800",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8125,
+              "selection_seed": 20261015,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 2,
+                "1": 16,
+                "2": 12,
+                "3": 16,
+                "4": 2
+              },
+              "update_examples_sha256": "efab272b5afb9b263fa504d72c599ade77ecde9f30bd6aee1133be2509264c4c",
+              "update_manifest_sha256": "1b69d0d80d569cfea0faa6d661e6ee5c418103f57ed4fbef1d8570af211fde9e"
+            },
+            "selection_seed": 20261015
+          },
+          "20261016": {
+            "accuracy_mean_over_fit_seeds": 0.78125,
+            "delta_vs_base": {
+              "ci95": [
+                -0.034722222222222224,
+                0.041666666666666664
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.00347222222222222,
+              "seed": 20263756
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.8055555555555556,
+              "20261008": 0.7638888888888888,
+              "20261010": 0.7743055555555556
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 4,
+                "1": 9,
+                "2": 13,
+                "3": 16,
+                "4": 6
+              },
+              "correct_targets": 37,
+              "edit_type_distribution": {
+                "answer_changing": 12,
+                "answer_preserving": 16,
+                "clean": 20
+              },
+              "incorrect_targets": 11,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "afb8c4b283d9d48445d68b80cbb27e2376c47c6eae7c5619dfb8aaae09ee0832",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7708333333333334,
+              "selection_seed": 20261016,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 4,
+                "1": 11,
+                "2": 12,
+                "3": 21,
+                "4": 0
+              },
+              "update_examples_sha256": "f09af8af96a570635d0300d8ed1f139431931c30a15311473d438dc7a1d5ab37",
+              "update_manifest_sha256": "1bc726dca976db7c34aa0ac87662013ae8771fcece049bd89f97d963823b4658"
+            },
+            "selection_seed": 20261016
+          }
+        },
+        "independent_8b": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.8483796296296297,
+            "delta_vs_base": {
+              "ci95": [
+                0.03125,
+                0.11458333333333333
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.07060185185185185,
+              "seed": 20263747
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.8611111111111112,
+              "20261008": 0.8229166666666666,
+              "20261010": 0.8611111111111112
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 7,
+                "1": 12,
+                "2": 9,
+                "3": 13,
+                "4": 7
+              },
+              "correct_targets": 45,
+              "edit_type_distribution": {
+                "answer_changing": 12,
+                "answer_preserving": 14,
+                "clean": 22
+              },
+              "incorrect_targets": 3,
+              "rule": "independent_8b",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "640eaff93b5c1ebb96ba3c7a144ec81212dcdfd50f6b9d1f2ed04e63b31b802f",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.9375,
+              "selection_seed": 20261004,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 7,
+                "1": 12,
+                "2": 9,
+                "3": 16,
+                "4": 4
+              },
+              "update_examples_sha256": "13c5b57b7f6a4416a7b52a9b85d62bcb32e361fcc1edc6f47dedb1fb97428fe4",
+              "update_manifest_sha256": "5ad2af9caa4462346d95134bfd3c5004adb011b34e63e29103281165a3cad9d8"
+            },
+            "selection_seed": 20261004
+          }
+        },
+        "qwen_8b": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.8159722222222222,
+            "delta_vs_base": {
+              "ci95": [
+                0.011574074074074075,
+                0.06597222222222222
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.03819444444444444,
+              "seed": 20263740
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.8194444444444444,
+              "20261008": 0.8506944444444444,
+              "20261010": 0.7777777777777778
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 9,
+                "1": 13,
+                "2": 12,
+                "3": 10,
+                "4": 4
+              },
+              "correct_targets": 48,
+              "edit_type_distribution": {
+                "answer_changing": 15,
+                "answer_preserving": 14,
+                "clean": 19
+              },
+              "incorrect_targets": 0,
+              "rule": "qwen_8b",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "31162004d714ebab33bf6b7c50ea1c1a1fcd637b1da2fa74a77f3bac01913763",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 1.0,
+              "selection_seed": 20261004,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 9,
+                "1": 13,
+                "2": 12,
+                "3": 10,
+                "4": 4
+              },
+              "update_examples_sha256": "6ea9018c7c552a3cb766e39174c2809cf599432a80d34c7606d1b156e3350ce3",
+              "update_manifest_sha256": "ea60a510180c70019c78c89c36c857dcf0fb7acc544980e51f5b649197588f47"
+            },
+            "selection_seed": 20261004
+          }
+        },
+        "random": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.8020833333333334,
+            "delta_vs_base": {
+              "ci95": [
+                -0.006944444444444445,
+                0.05787037037037037
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.024305555555555556,
+              "seed": 20263739
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.8263888888888888,
+              "20261008": 0.7395833333333334,
+              "20261010": 0.8402777777777778
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 7,
+                "1": 11,
+                "2": 8,
+                "3": 14,
+                "4": 8
+              },
+              "correct_targets": 42,
+              "edit_type_distribution": {
+                "answer_changing": 12,
+                "answer_preserving": 17,
+                "clean": 19
+              },
+              "incorrect_targets": 6,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "49a8a211fdc9f948013b0af4d5ce0e642654b3190c4a8c0da7e03572e5c9ac63",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.875,
+              "selection_seed": 20261004,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 7,
+                "1": 11,
+                "2": 7,
+                "3": 20,
+                "4": 3
+              },
+              "update_examples_sha256": "2ebdf787fd7008be66ff0b73ccdab32fe81d0954c1d4e5280429cf087d7fd632",
+              "update_manifest_sha256": "ac3593111ba3eef7a7de99895b3c256fdc066761e23f1adf1407fede019f0f9c"
+            },
+            "selection_seed": 20261004
+          },
+          "20261013": {
+            "accuracy_mean_over_fit_seeds": 0.7488425925925926,
+            "delta_vs_base": {
+              "ci95": [
+                -0.06828703703703703,
+                0.009259259259259264
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.02893518518518519,
+              "seed": 20263748
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.6388888888888888,
+              "20261008": 0.78125,
+              "20261010": 0.8263888888888888
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 4,
+                "1": 11,
+                "2": 11,
+                "3": 15,
+                "4": 7
+              },
+              "correct_targets": 38,
+              "edit_type_distribution": {
+                "answer_changing": 12,
+                "answer_preserving": 18,
+                "clean": 18
+              },
+              "incorrect_targets": 10,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "54435390e4e749108accf5772b611616f040089bec8b032f009a4f17c92854ca",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7916666666666666,
+              "selection_seed": 20261013,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 4,
+                "1": 12,
+                "2": 11,
+                "3": 20,
+                "4": 1
+              },
+              "update_examples_sha256": "fe1236c0deab7a1adaa2b530ab78324731c870bc37d7915f2c088cd767a2e6a9",
+              "update_manifest_sha256": "91639fde5299f7bb58cebebec0f18d0c6a2af1d8780b353b4ca5a5398e3abf20"
+            },
+            "selection_seed": 20261013
+          },
+          "20261014": {
+            "accuracy_mean_over_fit_seeds": 0.8379629629629629,
+            "delta_vs_base": {
+              "ci95": [
+                0.024305555555555552,
+                0.09953703703703703
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.06018518518518518,
+              "seed": 20263749
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.7986111111111112,
+              "20261008": 0.8680555555555556,
+              "20261010": 0.8472222222222222
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 3,
+                "1": 13,
+                "2": 16,
+                "3": 10,
+                "4": 6
+              },
+              "correct_targets": 42,
+              "edit_type_distribution": {
+                "answer_changing": 15,
+                "answer_preserving": 18,
+                "clean": 15
+              },
+              "incorrect_targets": 6,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "e1f4c66d02930efeecfdc804c23bda56490bdaee72ca27783c0c78add7113be6",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.875,
+              "selection_seed": 20261014,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 3,
+                "1": 15,
+                "2": 15,
+                "3": 12,
+                "4": 3
+              },
+              "update_examples_sha256": "bed8e75e268b09e7d857e7a449cd1efa335563c8549f1a44905cc1faa5005e46",
+              "update_manifest_sha256": "8c8fd5630be52db7d529f21a11403c47761830ed8bc4aacd18b85645b6ce02e6"
+            },
+            "selection_seed": 20261014
+          },
+          "20261015": {
+            "accuracy_mean_over_fit_seeds": 0.6828703703703703,
+            "delta_vs_base": {
+              "ci95": [
+                -0.1400462962962963,
+                -0.053240740740740734
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.0949074074074074,
+              "seed": 20263750
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.6388888888888888,
+              "20261008": 0.7013888888888888,
+              "20261010": 0.7083333333333334
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 6,
+                "1": 10,
+                "2": 13,
+                "3": 10,
+                "4": 9
+              },
+              "correct_targets": 36,
+              "edit_type_distribution": {
+                "answer_changing": 14,
+                "answer_preserving": 16,
+                "clean": 18
+              },
+              "incorrect_targets": 12,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "7c2706680ba4093ccaca52000d62538a0eb98e2fe54a70f535f53b6be657b9e9",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.75,
+              "selection_seed": 20261015,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 6,
+                "1": 13,
+                "2": 12,
+                "3": 15,
+                "4": 2
+              },
+              "update_examples_sha256": "2f7b1f95df51e8c0ce087eb9b11a45d2ab0ce5cdc8780c97d553a23b4679f585",
+              "update_manifest_sha256": "649f95cdb664c7873c0228b19b9e94c933f6a7fcc562d39f6e990fbc9d418a16"
+            },
+            "selection_seed": 20261015
+          },
+          "20261016": {
+            "accuracy_mean_over_fit_seeds": 0.7638888888888888,
+            "delta_vs_base": {
+              "ci95": [
+                -0.04398148148148148,
+                0.015046296296296294
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.01388888888888889,
+              "seed": 20263751
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.8541666666666666,
+              "20261008": 0.6736111111111112,
+              "20261010": 0.7638888888888888
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 8,
+                "1": 7,
+                "2": 11,
+                "3": 16,
+                "4": 6
+              },
+              "correct_targets": 37,
+              "edit_type_distribution": {
+                "answer_changing": 10,
+                "answer_preserving": 17,
+                "clean": 21
+              },
+              "incorrect_targets": 11,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "52d0a0568c09a31ebec28e05cac786b8b79947835b5c625a779b0a27c001bbca",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7708333333333334,
+              "selection_seed": 20261016,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 7,
+                "1": 11,
+                "2": 11,
+                "3": 17,
+                "4": 2
+              },
+              "update_examples_sha256": "a5e73144ad99cf6816cbd96eff54c0db33b4a48f73f791b355be0abd33416d5b",
+              "update_manifest_sha256": "649d62357745d513a141aeaeef683613d7e17f157531432b860a5f65afd83b40"
+            },
+            "selection_seed": 20261016
+          }
+        },
+        "same_model": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.7685185185185185,
+            "delta_vs_base": {
+              "ci95": [
+                -0.03587962962962963,
+                0.016203703703703703
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.009259259259259259,
+              "seed": 20263743
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.7847222222222222,
+              "20261008": 0.8298611111111112,
+              "20261010": 0.6909722222222222
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 4,
+                "1": 12,
+                "2": 9,
+                "3": 15,
+                "4": 8
+              },
+              "correct_targets": 41,
+              "edit_type_distribution": {
+                "answer_changing": 11,
+                "answer_preserving": 16,
+                "clean": 21
+              },
+              "incorrect_targets": 7,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "8fb98694e93ef1847379def61f95abac791d21fafb9677dcbd29001fb24e4049",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8541666666666666,
+              "selection_seed": 20261004,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 4,
+                "1": 12,
+                "2": 9,
+                "3": 20,
+                "4": 3
+              },
+              "update_examples_sha256": "614638356c90844494a5187bd9721e4ec14c7b972a74e580de26985ae963430a",
+              "update_manifest_sha256": "cd9ba24a19f1c48a309e7abba6239ac45ac2648b2dbde4fde983a11aee5f95f9"
+            },
+            "selection_seed": 20261004
+          },
+          "20261013": {
+            "accuracy_mean_over_fit_seeds": 0.7835648148148149,
+            "delta_vs_base": {
+              "ci95": [
+                -0.028935185185185185,
+                0.040509259259259266
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.0057870370370370385,
+              "seed": 20263752
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.7638888888888888,
+              "20261008": 0.84375,
+              "20261010": 0.7430555555555556
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 3,
+                "1": 11,
+                "2": 11,
+                "3": 16,
+                "4": 7
+              },
+              "correct_targets": 38,
+              "edit_type_distribution": {
+                "answer_changing": 13,
+                "answer_preserving": 18,
+                "clean": 17
+              },
+              "incorrect_targets": 10,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "1dc8733d4aef4aea5c62832bf1788dbcea5a1dddd3525897de320c2cafd2654e",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7916666666666666,
+              "selection_seed": 20261013,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 3,
+                "1": 12,
+                "2": 11,
+                "3": 21,
+                "4": 1
+              },
+              "update_examples_sha256": "962a9a71e9a8fe49ff9a5bbf9d66e6679baa2a83240f65a1ef2b22f718b11533",
+              "update_manifest_sha256": "6ee862891e0d076957d0605a47e34abb3ca8a83dfa857a0a301d4f9ac8d0c532"
+            },
+            "selection_seed": 20261013
+          },
+          "20261014": {
+            "accuracy_mean_over_fit_seeds": 0.8344907407407408,
+            "delta_vs_base": {
+              "ci95": [
+                0.021990740740740738,
+                0.0949074074074074
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.056712962962962965,
+              "seed": 20263753
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.875,
+              "20261008": 0.7777777777777778,
+              "20261010": 0.8506944444444444
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 1,
+                "1": 14,
+                "2": 16,
+                "3": 10,
+                "4": 7
+              },
+              "correct_targets": 42,
+              "edit_type_distribution": {
+                "answer_changing": 15,
+                "answer_preserving": 18,
+                "clean": 15
+              },
+              "incorrect_targets": 6,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "3bde0579195dbe833671b02e85b6fce35ccf6d6e5ef15f4a34fd37f3ad24f372",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.875,
+              "selection_seed": 20261014,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 1,
+                "1": 16,
+                "2": 15,
+                "3": 12,
+                "4": 4
+              },
+              "update_examples_sha256": "6395e40bc1ba5629f88d2eb54856ce394208688f0997ad8fa3c022fe7c33faca",
+              "update_manifest_sha256": "e887947d6b886ed5a577631019eb72ede98618d047e3b75c4f7c427161ac8ba8"
+            },
+            "selection_seed": 20261014
+          },
+          "20261015": {
+            "accuracy_mean_over_fit_seeds": 0.6979166666666666,
+            "delta_vs_base": {
+              "ci95": [
+                -0.11574074074074074,
+                -0.0474537037037037
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.07986111111111112,
+              "seed": 20263754
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.5902777777777778,
+              "20261008": 0.7638888888888888,
+              "20261010": 0.7395833333333334
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 2,
+                "1": 13,
+                "2": 13,
+                "3": 11,
+                "4": 9
+              },
+              "correct_targets": 36,
+              "edit_type_distribution": {
+                "answer_changing": 14,
+                "answer_preserving": 15,
+                "clean": 19
+              },
+              "incorrect_targets": 12,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "a32def21928d40ed775bd0d2a930e07736ca4f7332f8b38e965914e3927af018",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.75,
+              "selection_seed": 20261015,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 2,
+                "1": 16,
+                "2": 12,
+                "3": 16,
+                "4": 2
+              },
+              "update_examples_sha256": "be647637ab8a983d7289e943f880c5bcc83b21ce71691dd59ab352e7d92dd267",
+              "update_manifest_sha256": "57409a7c98a4f717a4d6a436408325de85fba159f041606a1956a8a4becb9e8a"
+            },
+            "selection_seed": 20261015
+          },
+          "20261016": {
+            "accuracy_mean_over_fit_seeds": 0.7800925925925926,
+            "delta_vs_base": {
+              "ci95": [
+                -0.02314814814814815,
+                0.02893518518518518
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.0023148148148148117,
+              "seed": 20263755
+            },
+            "fit_seed_accuracies": {
+              "20261006": 0.8298611111111112,
+              "20261008": 0.7951388888888888,
+              "20261010": 0.7152777777777778
+            },
+            "fit_seeds": [
+              20261006,
+              20261008,
+              20261010
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 5,
+                "1": 7,
+                "2": 12,
+                "3": 17,
+                "4": 7
+              },
+              "correct_targets": 35,
+              "edit_type_distribution": {
+                "answer_changing": 9,
+                "answer_preserving": 18,
+                "clean": 21
+              },
+              "incorrect_targets": 13,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "03aefea1bd3116d72ff76ca0b28c8cdc2b31920d61b2537ca78608ad2b5b6f3f",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7291666666666666,
+              "selection_seed": 20261016,
+              "task_family": "color_count",
+              "training_target_distribution": {
+                "0": 4,
+                "1": 11,
+                "2": 11,
+                "3": 20,
+                "4": 2
+              },
+              "update_examples_sha256": "7c118c41cb5a6e11dac524b51fa683de1b271c5b61768336f6770c93a9de59aa",
+              "update_manifest_sha256": "1595fc65bbd929afd41d73723f481fee4599e09acbb2032b7a1bfa5cba1431c7"
+            },
+            "selection_seed": 20261016
+          }
+        }
+      },
+      "variants_per_group": 3
+    },
+    "shape_count": {
+      "base": {
+        "accuracy": 0.7013888888888888,
+        "by_edit_kind": {
+          "answer_changing": {
+            "accuracy": 0.71875,
+            "correct": 69,
+            "count": 96
+          },
+          "answer_preserving": {
+            "accuracy": 0.6979166666666666,
+            "correct": 67,
+            "count": 96
+          },
+          "clean": {
+            "accuracy": 0.6875,
+            "correct": 66,
+            "count": 96
+          }
+        },
+        "invalid_range": 0
+      },
+      "control_direct": {
+        "consensus": {
+          "ci95": [
+            0.08449074074074074,
+            0.16087962962962962
+          ],
+          "draws": 20000,
+          "groups": 96,
+          "interval": "two-sided percentile interval over 96 scene-group means",
+          "mean": 0.12152777777777778,
+          "seed": 5288
+        },
+        "independent_8b": {
+          "ci95": [
+            0.13425925925925927,
+            0.23958333333333334
+          ],
+          "draws": 20000,
+          "groups": 96,
+          "interval": "two-sided percentile interval over 96 scene-group means",
+          "mean": 0.1863425925925926,
+          "seed": 5293
+        },
+        "qwen_8b": {
+          "ci95": [
+            0.07523148148148148,
+            0.17592592592592593
+          ],
+          "draws": 20000,
+          "groups": 96,
+          "interval": "two-sided percentile interval over 96 scene-group means",
+          "mean": 0.125,
+          "seed": 5286
+        }
+      },
+      "fit_seeds": [
+        20261005,
+        20261007,
+        20261009
+      ],
+      "primary_summary": {
+        "independent": {
+          "delta_vs_base_max": 0.1099537037037037,
+          "delta_vs_base_mean_across_selection_sets": 0.08541666666666667,
+          "delta_vs_base_min": 0.06481481481481481,
+          "no_population_level_interval_reported": true,
+          "positive_delta_count": 5,
+          "selection_seed_count": 5,
+          "selection_seeds": [
+            20261004,
+            20261013,
+            20261014,
+            20261015,
+            20261016
+          ]
+        },
+        "independent_minus_same_model": {
+          "maximum": 0.12268518518518517,
+          "mean_across_selection_sets": 0.06597222222222222,
+          "minimum": 0.02199074074074074,
+          "no_population_level_interval_reported": true,
+          "per_selection_set": {
+            "20261004": {
+              "ci95": [
+                0.07523148148148148,
+                0.16898148148148148
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.12268518518518517,
+              "seed": 20265021
+            },
+            "20261013": {
+              "ci95": [
+                -0.004629629629629629,
+                0.04976851851851852
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.02199074074074074,
+              "seed": 20265030
+            },
+            "20261014": {
+              "ci95": [
+                0.027777777777777776,
+                0.10648148148148147
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.06712962962962962,
+              "seed": 20265031
+            },
+            "20261015": {
+              "ci95": [
+                0.03356481481481482,
+                0.09722222222222221
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.0636574074074074,
+              "seed": 20265032
+            },
+            "20261016": {
+              "ci95": [
+                0.03125,
+                0.0787037037037037
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.05439814814814815,
+              "seed": 20265033
+            }
+          },
+          "positive_count": 5
+        },
+        "random": {
+          "delta_vs_base_max": 0.0775462962962963,
+          "delta_vs_base_mean_across_selection_sets": 0.04282407407407408,
+          "delta_vs_base_min": 0.02314814814814815,
+          "no_population_level_interval_reported": true,
+          "positive_delta_count": 5,
+          "selection_seed_count": 5,
+          "selection_seeds": [
+            20261004,
+            20261013,
+            20261014,
+            20261015,
+            20261016
+          ]
+        },
+        "random_minus_same_model": {
+          "maximum": 0.09027777777777778,
+          "mean_across_selection_sets": 0.023379629629629632,
+          "minimum": -0.016203703703703703,
+          "no_population_level_interval_reported": true,
+          "per_selection_set": {
+            "20261004": {
+              "ci95": [
+                0.06134259259259259,
+                0.12037037037037036
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.09027777777777778,
+              "seed": 20264921
+            },
+            "20261013": {
+              "ci95": [
+                -0.03009259259259259,
+                -0.003472222222222222
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.016203703703703703,
+              "seed": 20264930
+            },
+            "20261014": {
+              "ci95": [
+                0.019675925925925927,
+                0.07060185185185185
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.04398148148148148,
+              "seed": 20264931
+            },
+            "20261015": {
+              "ci95": [
+                -0.004629629629629629,
+                0.037037037037037035
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.015046296296296295,
+              "seed": 20264932
+            },
+            "20261016": {
+              "ci95": [
+                -0.03356481481481481,
+                0.0011574074074074073
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.016203703703703703,
+              "seed": 20264933
+            }
+          },
+          "positive_count": 3
+        },
+        "same_model": {
+          "delta_vs_base_max": 0.05439814814814815,
+          "delta_vs_base_mean_across_selection_sets": 0.019444444444444445,
+          "delta_vs_base_min": -0.012731481481481483,
+          "no_population_level_interval_reported": true,
+          "positive_delta_count": 3,
+          "selection_seed_count": 5,
+          "selection_seeds": [
+            20261004,
+            20261013,
+            20261014,
+            20261015,
+            20261016
+          ]
+        }
+      },
+      "scene_groups": 96,
+      "sets": {
+        "consensus": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.8101851851851851,
+            "delta_vs_base": {
+              "ci95": [
+                0.06481481481481481,
+                0.1550925925925926
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.1087962962962963,
+              "seed": 20262742
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.8229166666666666,
+              "20261007": 0.75,
+              "20261009": 0.8576388888888888
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 0,
+                "1": 21,
+                "2": 13,
+                "3": 9,
+                "4": 5
+              },
+              "correct_targets": 39,
+              "edit_type_distribution": {
+                "answer_changing": 20,
+                "answer_preserving": 13,
+                "clean": 15
+              },
+              "incorrect_targets": 9,
+              "rule": "consensus",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "3e7fcda40176a92927d289c2410187e0e0ccab93d7bef195ac2cd6c5be86c155",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8125,
+              "selection_seed": 20261004,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 0,
+                "1": 21,
+                "2": 13,
+                "3": 12,
+                "4": 2
+              },
+              "update_examples_sha256": "02c656f926341468d1be1ef37160d21739d1d06260c1096a31cf0fce205d3e9e",
+              "update_manifest_sha256": "dc5229428703e37d50a88088f7e4094625decc28ac72c767fb1cc0b3baad4b05"
+            },
+            "selection_seed": 20261004
+          }
+        },
+        "independent": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.8113425925925926,
+            "delta_vs_base": {
+              "ci95": [
+                0.056712962962962965,
+                0.16550925925925927
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.1099537037037037,
+              "seed": 20262744
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.8402777777777778,
+              "20261007": 0.8194444444444444,
+              "20261009": 0.7743055555555556
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 0,
+                "1": 19,
+                "2": 16,
+                "3": 8,
+                "4": 5
+              },
+              "correct_targets": 37,
+              "edit_type_distribution": {
+                "answer_changing": 21,
+                "answer_preserving": 14,
+                "clean": 13
+              },
+              "incorrect_targets": 11,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "3ca2d75fcf4173cd58cec3ad9fcc43662475dcd821b1680a24eb15ad0b0b9ff7",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7708333333333334,
+              "selection_seed": 20261004,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 0,
+                "1": 21,
+                "2": 14,
+                "3": 11,
+                "4": 2
+              },
+              "update_examples_sha256": "a40a41b18c79f5d6977f80d8721e382acb2452987be96779c07739cf19f6bc3b",
+              "update_manifest_sha256": "b41a8e07ad7f8cffb45bdba1287f2d79864a6a42dacecb42d0473e9271597c44"
+            },
+            "selection_seed": 20261004
+          },
+          "20261013": {
+            "accuracy_mean_over_fit_seeds": 0.7731481481481483,
+            "delta_vs_base": {
+              "ci95": [
+                0.03472222222222222,
+                0.11342592592592593
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.07175925925925926,
+              "seed": 20262753
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.84375,
+              "20261007": 0.7395833333333334,
+              "20261009": 0.7361111111111112
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 0,
+                "1": 19,
+                "2": 15,
+                "3": 9,
+                "4": 5
+              },
+              "correct_targets": 41,
+              "edit_type_distribution": {
+                "answer_changing": 17,
+                "answer_preserving": 12,
+                "clean": 19
+              },
+              "incorrect_targets": 7,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "07854279ff6a0acdadfb97da4d8a42d19e7331e3d2169c6d4c0849524e47e419",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8541666666666666,
+              "selection_seed": 20261013,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 0,
+                "1": 20,
+                "2": 13,
+                "3": 15,
+                "4": 0
+              },
+              "update_examples_sha256": "db51881b2eb7d0e14eaba028f43ee08c7d88f11da776b1ed0ba0ea84d78efcea",
+              "update_manifest_sha256": "0eba5244ff71b6cc8b93f5fd58e2abc5678af33270ca8bb0a3c2dbbefb4748e7"
+            },
+            "selection_seed": 20261013
+          },
+          "20261014": {
+            "accuracy_mean_over_fit_seeds": 0.7662037037037037,
+            "delta_vs_base": {
+              "ci95": [
+                0.021990740740740738,
+                0.1099537037037037
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.06481481481481481,
+              "seed": 20262754
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7743055555555556,
+              "20261007": 0.8159722222222222,
+              "20261009": 0.7083333333333334
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 0,
+                "1": 15,
+                "2": 18,
+                "3": 10,
+                "4": 5
+              },
+              "correct_targets": 42,
+              "edit_type_distribution": {
+                "answer_changing": 23,
+                "answer_preserving": 16,
+                "clean": 9
+              },
+              "incorrect_targets": 6,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "58caa63c19eec5cad5820a31104df2c2b6a1669f12609e6264f9e2a46b5ae6cd",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.875,
+              "selection_seed": 20261014,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 0,
+                "1": 17,
+                "2": 15,
+                "3": 14,
+                "4": 2
+              },
+              "update_examples_sha256": "12321ef4141bbc4d95a5a1aed379cde9551cdab131c489e3c54adf9cd34902a4",
+              "update_manifest_sha256": "39d5da1a31a72c007334686de684a69a6baef6168c5b8342040486c2de7db9cb"
+            },
+            "selection_seed": 20261014
+          },
+          "20261015": {
+            "accuracy_mean_over_fit_seeds": 0.7731481481481483,
+            "delta_vs_base": {
+              "ci95": [
+                0.03356481481481482,
+                0.11458333333333333
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.07175925925925926,
+              "seed": 20262755
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7986111111111112,
+              "20261007": 0.7638888888888888,
+              "20261009": 0.7569444444444444
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 0,
+                "1": 21,
+                "2": 11,
+                "3": 14,
+                "4": 2
+              },
+              "correct_targets": 45,
+              "edit_type_distribution": {
+                "answer_changing": 16,
+                "answer_preserving": 16,
+                "clean": 16
+              },
+              "incorrect_targets": 3,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "235ab882cfabd956bb725f0b4177e3eb8df848027d83a759ef5cc2a1aa3122d8",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.9375,
+              "selection_seed": 20261015,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 0,
+                "1": 21,
+                "2": 12,
+                "3": 15,
+                "4": 0
+              },
+              "update_examples_sha256": "1a860a68578b0907858d384195063a42d7699459f3fd37965ef25eb0c8934e10",
+              "update_manifest_sha256": "cd5371289ec63560960ffe794ee3db433cd8eb38a7f55deb9698d4ae59eff33b"
+            },
+            "selection_seed": 20261015
+          },
+          "20261016": {
+            "accuracy_mean_over_fit_seeds": 0.8101851851851851,
+            "delta_vs_base": {
+              "ci95": [
+                0.06597222222222222,
+                0.1539351851851852
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.1087962962962963,
+              "seed": 20262756
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.8125,
+              "20261007": 0.8263888888888888,
+              "20261009": 0.7916666666666666
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 0,
+                "1": 19,
+                "2": 18,
+                "3": 6,
+                "4": 5
+              },
+              "correct_targets": 40,
+              "edit_type_distribution": {
+                "answer_changing": 17,
+                "answer_preserving": 20,
+                "clean": 11
+              },
+              "incorrect_targets": 8,
+              "rule": "independent",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "13a3d24ab919cdada13d537fe39cad27c6c026bf5b1d46780e7a786c11c8056b",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8333333333333334,
+              "selection_seed": 20261016,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 0,
+                "1": 20,
+                "2": 15,
+                "3": 13,
+                "4": 0
+              },
+              "update_examples_sha256": "e8e1c1f19ef7336b4c8c23e1ed1b06044b55debcc07536676d1831ee9d3afa4a",
+              "update_manifest_sha256": "57233704c37d1a419030a1820693d9835c36d31d9074a2fdc881ada2d5d2276a"
+            },
+            "selection_seed": 20261016
+          }
+        },
+        "independent_8b": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.875,
+            "delta_vs_base": {
+              "ci95": [
+                0.11689814814814815,
+                0.23263888888888892
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.17361111111111113,
+              "seed": 20262747
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.90625,
+              "20261007": 0.8784722222222222,
+              "20261009": 0.8402777777777778
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 7,
+                "1": 17,
+                "2": 13,
+                "3": 6,
+                "4": 5
+              },
+              "correct_targets": 47,
+              "edit_type_distribution": {
+                "answer_changing": 20,
+                "answer_preserving": 11,
+                "clean": 17
+              },
+              "incorrect_targets": 1,
+              "rule": "independent_8b",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "3b4e7056747834916fb00b9e9f7183974d0265c8c1f7908907a17284141b4fdf",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.9791666666666666,
+              "selection_seed": 20261004,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 7,
+                "1": 17,
+                "2": 13,
+                "3": 7,
+                "4": 4
+              },
+              "update_examples_sha256": "be278d58cce0291cb33e1e1808455482f2d870f097db4881fee88ccd317b6421",
+              "update_manifest_sha256": "80a1d0b24e1609dac0b4620a7fe69a0a81ea1d3b12c1a5b5ff7325ef84b63543"
+            },
+            "selection_seed": 20261004
+          }
+        },
+        "qwen_8b": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.8136574074074074,
+            "delta_vs_base": {
+              "ci95": [
+                0.05902777777777777,
+                0.16782407407407407
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.11226851851851853,
+              "seed": 20262740
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7361111111111112,
+              "20261007": 0.8680555555555556,
+              "20261009": 0.8368055555555556
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 9,
+                "1": 19,
+                "2": 14,
+                "3": 3,
+                "4": 3
+              },
+              "correct_targets": 48,
+              "edit_type_distribution": {
+                "answer_changing": 21,
+                "answer_preserving": 11,
+                "clean": 16
+              },
+              "incorrect_targets": 0,
+              "rule": "qwen_8b",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "cc612ce00a0e9e012ac1380f5c858186741f4075c2003be9ec710fff6b0d73e9",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 1.0,
+              "selection_seed": 20261004,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 9,
+                "1": 19,
+                "2": 14,
+                "3": 3,
+                "4": 3
+              },
+              "update_examples_sha256": "982659a052e02cb01acc406857ad83752cef24866861d281fcca01a2ec0724ec",
+              "update_manifest_sha256": "21172734e3a42a624907b7a3ce1f34cf9d733f8c9d010b2fe58f3a20fe63142b"
+            },
+            "selection_seed": 20261004
+          }
+        },
+        "random": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.7789351851851851,
+            "delta_vs_base": {
+              "ci95": [
+                0.03935185185185185,
+                0.11689814814814815
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.0775462962962963,
+              "seed": 20262739
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7673611111111112,
+              "20261007": 0.7256944444444444,
+              "20261009": 0.84375
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 5,
+                "1": 15,
+                "2": 12,
+                "3": 12,
+                "4": 4
+              },
+              "correct_targets": 35,
+              "edit_type_distribution": {
+                "answer_changing": 18,
+                "answer_preserving": 13,
+                "clean": 17
+              },
+              "incorrect_targets": 13,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "49fab3700330f8231029c234362065bc2aceb3ae60d2235507a01db5ddfea78a",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7291666666666666,
+              "selection_seed": 20261004,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 5,
+                "1": 17,
+                "2": 16,
+                "3": 7,
+                "4": 3
+              },
+              "update_examples_sha256": "46fbb44982d2c1d586cd5fbf58f5567f8f24ec59134c18f2b101ae7601131076",
+              "update_manifest_sha256": "e2a3bb7bf9d9feaa810ee5aa3217eb5fd4f0c34636dc02b8dbdea8cb97b02a50"
+            },
+            "selection_seed": 20261004
+          },
+          "20261013": {
+            "accuracy_mean_over_fit_seeds": 0.7349537037037037,
+            "delta_vs_base": {
+              "ci95": [
+                0.0011574074074074073,
+                0.07060185185185185
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.03356481481481482,
+              "seed": 20262748
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7534722222222222,
+              "20261007": 0.7222222222222222,
+              "20261009": 0.7291666666666666
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 6,
+                "1": 11,
+                "2": 17,
+                "3": 9,
+                "4": 5
+              },
+              "correct_targets": 37,
+              "edit_type_distribution": {
+                "answer_changing": 18,
+                "answer_preserving": 15,
+                "clean": 15
+              },
+              "incorrect_targets": 11,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "f9909ae941f9e4303af3b52af9898bf420e389235cacdb4e36bc0b841615dd48",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7708333333333334,
+              "selection_seed": 20261013,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 6,
+                "1": 14,
+                "2": 17,
+                "3": 10,
+                "4": 1
+              },
+              "update_examples_sha256": "38517a5d68c94e0387582318450434ff3233975b067bd579dc38f96df540e8bf",
+              "update_manifest_sha256": "e9b546aac8dd6e7296a28150db561b1f4e7972128507c41ce621853e59cfc3fb"
+            },
+            "selection_seed": 20261013
+          },
+          "20261014": {
+            "accuracy_mean_over_fit_seeds": 0.7430555555555557,
+            "delta_vs_base": {
+              "ci95": [
+                0.006944444444444447,
+                0.0787037037037037
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.041666666666666664,
+              "seed": 20262749
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.6736111111111112,
+              "20261007": 0.78125,
+              "20261009": 0.7743055555555556
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 5,
+                "1": 10,
+                "2": 14,
+                "3": 11,
+                "4": 8
+              },
+              "correct_targets": 39,
+              "edit_type_distribution": {
+                "answer_changing": 14,
+                "answer_preserving": 20,
+                "clean": 14
+              },
+              "incorrect_targets": 9,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "227c296564cd2827b14f8161fdbaeb849dda3c967635d99c4c6a3338095c0b11",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8125,
+              "selection_seed": 20261014,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 5,
+                "1": 13,
+                "2": 12,
+                "3": 15,
+                "4": 3
+              },
+              "update_examples_sha256": "23d23f72b251bcc24648cec3d42bbfb68c075074ab31840019fc5023d6335e5f",
+              "update_manifest_sha256": "ba15157156b4bc07603f45eddecba0fdcb009e2eecf908c060d90cef5e712149"
+            },
+            "selection_seed": 20261014
+          },
+          "20261015": {
+            "accuracy_mean_over_fit_seeds": 0.7245370370370371,
+            "delta_vs_base": {
+              "ci95": [
+                0.0034722222222222207,
+                0.04513888888888889
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.02314814814814815,
+              "seed": 20262750
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.6736111111111112,
+              "20261007": 0.7604166666666666,
+              "20261009": 0.7395833333333334
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 5,
+                "1": 13,
+                "2": 11,
+                "3": 16,
+                "4": 3
+              },
+              "correct_targets": 39,
+              "edit_type_distribution": {
+                "answer_changing": 19,
+                "answer_preserving": 14,
+                "clean": 15
+              },
+              "incorrect_targets": 9,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "a45d265c4bd970f2462d72da1233855d00fa102496bc77d8268720f9d87ecdda",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8125,
+              "selection_seed": 20261015,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 5,
+                "1": 15,
+                "2": 14,
+                "3": 14,
+                "4": 0
+              },
+              "update_examples_sha256": "4598b838bb9136d94906e8f32b551840024ac69c220afbf1f297045d944ebe1c",
+              "update_manifest_sha256": "ec2b20aa460d9163f609f0e427dcb2eab0f10339fe562744d799b65419c6f14a"
+            },
+            "selection_seed": 20261015
+          },
+          "20261016": {
+            "accuracy_mean_over_fit_seeds": 0.7395833333333334,
+            "delta_vs_base": {
+              "ci95": [
+                0.005787037037037035,
+                0.07523148148148148
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.03819444444444445,
+              "seed": 20262751
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7673611111111112,
+              "20261007": 0.7256944444444444,
+              "20261009": 0.7256944444444444
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 8,
+                "1": 9,
+                "2": 17,
+                "3": 8,
+                "4": 6
+              },
+              "correct_targets": 35,
+              "edit_type_distribution": {
+                "answer_changing": 18,
+                "answer_preserving": 14,
+                "clean": 16
+              },
+              "incorrect_targets": 13,
+              "rule": "random",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "0bcebdd8ebeb9acbcf695d244850b52e8510756db0bd776f34e40328bef5e616",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7291666666666666,
+              "selection_seed": 20261016,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 8,
+                "1": 10,
+                "2": 19,
+                "3": 10,
+                "4": 1
+              },
+              "update_examples_sha256": "71839a5af26bc08f80963ae0e98c8d9e05406936ab6f8f6a061fd95d78874256",
+              "update_manifest_sha256": "1f270cc2d1e3c5fea05904c705ee48c40829dbf591824332ee89e65691537c54"
+            },
+            "selection_seed": 20261016
+          }
+        },
+        "same_model": {
+          "20261004": {
+            "accuracy_mean_over_fit_seeds": 0.6886574074074074,
+            "delta_vs_base": {
+              "ci95": [
+                -0.03935185185185185,
+                0.016203703703703703
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.012731481481481483,
+              "seed": 20262743
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7222222222222222,
+              "20261007": 0.5833333333333334,
+              "20261009": 0.7604166666666666
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 1,
+                "1": 17,
+                "2": 13,
+                "3": 13,
+                "4": 4
+              },
+              "correct_targets": 35,
+              "edit_type_distribution": {
+                "answer_changing": 17,
+                "answer_preserving": 13,
+                "clean": 18
+              },
+              "incorrect_targets": 13,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "3e42683621c6eb34fe75d467c99b4699df66015dc16bcea99a39d065a8e32733",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7291666666666666,
+              "selection_seed": 20261004,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 1,
+                "1": 19,
+                "2": 17,
+                "3": 8,
+                "4": 3
+              },
+              "update_examples_sha256": "67961cf644d8a9cd2839276e66307e170125edd3bbba8c19a2b68ae41eb7d245",
+              "update_manifest_sha256": "98694b134082244c58417a433b3aeff512504d8f0e0b0bb2f2de94363be89821"
+            },
+            "selection_seed": 20261004
+          },
+          "20261013": {
+            "accuracy_mean_over_fit_seeds": 0.7511574074074074,
+            "delta_vs_base": {
+              "ci95": [
+                0.017361111111111115,
+                0.08564814814814815
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.04976851851851852,
+              "seed": 20262752
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7777777777777778,
+              "20261007": 0.7569444444444444,
+              "20261009": 0.71875
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 0,
+                "1": 13,
+                "2": 16,
+                "3": 12,
+                "4": 7
+              },
+              "correct_targets": 35,
+              "edit_type_distribution": {
+                "answer_changing": 18,
+                "answer_preserving": 13,
+                "clean": 17
+              },
+              "incorrect_targets": 13,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "e14d6ebe0e4a84877a9df965079410bfca631a88d52009bd3912f56d2756ce4d",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7291666666666666,
+              "selection_seed": 20261013,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 0,
+                "1": 15,
+                "2": 18,
+                "3": 14,
+                "4": 1
+              },
+              "update_examples_sha256": "85a36f7eaee10c5743ecee2f9845cd815b4a70646542d2643788dbf89d36bd76",
+              "update_manifest_sha256": "bd176d0f9f95da983e9b96d186533f9fc722a7e7e5a3997eac998c1f010fff49"
+            },
+            "selection_seed": 20261013
+          },
+          "20261014": {
+            "accuracy_mean_over_fit_seeds": 0.6990740740740741,
+            "delta_vs_base": {
+              "ci95": [
+                -0.03009259259259259,
+                0.025462962962962965
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": -0.0023148148148148147,
+              "seed": 20262753
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.6875,
+              "20261007": 0.6944444444444444,
+              "20261009": 0.7152777777777778
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 0,
+                "1": 13,
+                "2": 12,
+                "3": 13,
+                "4": 10
+              },
+              "correct_targets": 40,
+              "edit_type_distribution": {
+                "answer_changing": 18,
+                "answer_preserving": 16,
+                "clean": 14
+              },
+              "incorrect_targets": 8,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "2df17fa88859fd0cff1cf7d07e2879a34f7fc60967fc1c418404844f5edd513e",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.8333333333333334,
+              "selection_seed": 20261014,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 0,
+                "1": 14,
+                "2": 13,
+                "3": 16,
+                "4": 5
+              },
+              "update_examples_sha256": "63a166f0a633c6dab75787000529622a4234b8909deb59209beb34d29e76938d",
+              "update_manifest_sha256": "85cdf83e04deca9d24f80cdbd6b988ef22d8b3011e43f1af3773d28ea1bb03d2"
+            },
+            "selection_seed": 20261014
+          },
+          "20261015": {
+            "accuracy_mean_over_fit_seeds": 0.7094907407407408,
+            "delta_vs_base": {
+              "ci95": [
+                -0.01736111111111111,
+                0.034722222222222224
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.008101851851851853,
+              "seed": 20262754
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7048611111111112,
+              "20261007": 0.7118055555555556,
+              "20261009": 0.7118055555555556
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 1,
+                "1": 14,
+                "2": 11,
+                "3": 19,
+                "4": 3
+              },
+              "correct_targets": 38,
+              "edit_type_distribution": {
+                "answer_changing": 18,
+                "answer_preserving": 15,
+                "clean": 15
+              },
+              "incorrect_targets": 10,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "de39d249b9b8b6191cf3d97eb3863e37374d29980b21e347f6e0e08ff6edec12",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.7916666666666666,
+              "selection_seed": 20261015,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 1,
+                "1": 16,
+                "2": 15,
+                "3": 16,
+                "4": 0
+              },
+              "update_examples_sha256": "627151302fdb26d0a602c88bda1f898eab2b305a67f144498e7c22faa8dd5493",
+              "update_manifest_sha256": "ff6c757eb2b656b0c6fc02af5361ca75271f2384151d84eb44d8b7865fc0b2dc"
+            },
+            "selection_seed": 20261015
+          },
+          "20261016": {
+            "accuracy_mean_over_fit_seeds": 0.7557870370370371,
+            "delta_vs_base": {
+              "ci95": [
+                0.024305555555555556,
+                0.08796296296296297
+              ],
+              "draws": 20000,
+              "groups": 96,
+              "interval": "two-sided percentile interval over 96 scene-group means",
+              "mean": 0.05439814814814815,
+              "seed": 20262755
+            },
+            "fit_seed_accuracies": {
+              "20261005": 0.7083333333333334,
+              "20261007": 0.8368055555555556,
+              "20261009": 0.7222222222222222
+            },
+            "fit_seeds": [
+              20261005,
+              20261007,
+              20261009
+            ],
+            "selection_composition": {
+              "answer_distribution": {
+                "0": 1,
+                "1": 12,
+                "2": 18,
+                "3": 10,
+                "4": 7
+              },
+              "correct_targets": 33,
+              "edit_type_distribution": {
+                "answer_changing": 17,
+                "answer_preserving": 16,
+                "clean": 15
+              },
+              "incorrect_targets": 15,
+              "rule": "same_model",
+              "selected_count": 48,
+              "selected_sample_ids_sha256": "9b490310e364be47dcecf6ed067382a9ebefc9879cf465f04b8c3dd3c7d017f5",
+              "selected_source_scene_count": 48,
+              "selected_target_precision": 0.6875,
+              "selection_seed": 20261016,
+              "task_family": "shape_count",
+              "training_target_distribution": {
+                "0": 1,
+                "1": 14,
+                "2": 20,
+                "3": 11,
+                "4": 2
+              },
+              "update_examples_sha256": "d4aedfd90c0d12ab0e3a4b879aedcec8485f8dd4291bdb771dca6a468cbf3a38",
+              "update_manifest_sha256": "0a1eedc8c6b70710b08ca6776a5585836761934d2f12f44ff29c67a49eb8a73c"
+            },
+            "selection_seed": 20261016
+          }
+        }
+      },
+      "variants_per_group": 3
+    }
+  },
+  "interpretation": "Within-set intervals condition on each realized selected set and three fitted seeds. Primary summaries across five selection seeds are unweighted descriptive ranges, not population intervals.",
+  "matrix": {
+    "base_count": 2,
+    "primary_selection_seed_count": 5,
+    "selection_set_count": 36,
+    "task_count": 110,
+    "update_count": 108
+  },
+  "model": {
+    "repo_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "revision": "89644892e4d85e24eaac8bacfd4f463576704203"
+  },
+  "parser_audit": {
+    "invalid_range": 18,
+    "multiple_integer_mentions": 0,
+    "negative_mentions": 0,
+    "no_parse": 0
+  },
+  "schema": "rsi_visual_selection_seed_extension_public_analysis_summary_v1",
+  "source_commit": "0e7f02470de2d70f85f15e80d2f5eb4e2aeece43",
+  "status": "VERIFIED"
+}

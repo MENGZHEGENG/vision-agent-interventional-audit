@@ -1,0 +1,84 @@
+{
+  "arms": [
+    "base",
+    "random",
+    "same_model",
+    "independent",
+    "consensus",
+    "qwen_8b",
+    "independent_8b"
+  ],
+  "bootstrap_draws": 20000,
+  "checkpoints": {
+    "internvl3_5_2b_instruct": {
+      "family": "internvl3_5",
+      "repo_id": "OpenGVLab/InternVL3_5-2B-Instruct",
+      "revision": "a1e50c526faea805730148e7b1f2af18abe9e4b2"
+    },
+    "internvl3_5_8b": {
+      "family": "internvl3_5",
+      "repo_id": "OpenGVLab/InternVL3_5-8B",
+      "revision": "9bb6a56ad9cc69db95e2d4eeb15a52bbcac4ef79"
+    },
+    "qwen3_vl_2b_instruct": {
+      "family": "qwen3_vl",
+      "repo_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "revision": "89644892e4d85e24eaac8bacfd4f463576704203"
+    },
+    "qwen3_vl_8b_instruct": {
+      "family": "qwen3_vl",
+      "repo_id": "Qwen/Qwen3-VL-8B-Instruct",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b"
+    }
+  },
+  "families": {
+    "color_count": {
+      "development_seed": 20261004,
+      "heldout_seed": 20261012,
+      "identity_map": "configs/color_count_identifiers.jsonl",
+      "identity_map_sha256": "57c0b6c02eb6845431b09800beabae7478ee2c03cdbf696008bf8b17030c5449",
+      "recorded_development_rows": "data/color_count_development_predictions.jsonl",
+      "recorded_development_sha256": "4382ddec48ea81dabfe0c817f8060bae60e91e507ccc69c29a7e5a78598240fd",
+      "recorded_updates": "data/color_count_heldout_predictions.json",
+      "recorded_updates_sha256": "51bf044eeae773bd68f91a6d0c2f780964a515e83cc5695fddeb351b65709020",
+      "shuffle_seed": 20261004,
+      "training_seeds": [
+        20261006,
+        20261008,
+        20261010
+      ]
+    },
+    "shape_count": {
+      "development_seed": 20261003,
+      "heldout_seed": 20261011,
+      "identity_map": "configs/shape_count_identifiers.jsonl",
+      "identity_map_sha256": "04e892bc83d6a8f2b353fbc5ab772899714e8dfae5a24b5d95fab3698a177b38",
+      "recorded_development_rows": "data/shape_count_development_predictions.jsonl",
+      "recorded_development_sha256": "4efaf740eae912d6ca5317c7e0f76d109fcaa674645f2f670c9438137dad5656",
+      "recorded_updates": "data/shape_count_heldout_predictions.json",
+      "recorded_updates_sha256": "244aba51c012d9d3c4a9c04fc9941bcf0359981c39ad45553138c6b2a1d93a53",
+      "shuffle_seed": 20261003,
+      "training_seeds": [
+        20261005,
+        20261007,
+        20261009
+      ]
+    }
+  },
+  "recipe": {
+    "batch_size": 1,
+    "development_max_new_tokens": 16,
+    "epochs": 1,
+    "gradient_clip_norm": 1.0,
+    "heldout_max_new_tokens": 64,
+    "learning_rate": 0.0001,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_rank": 8,
+    "optimizer": "AdamW defaults",
+    "optimizer_steps": 48
+  },
+  "schema": "visual_verifier_experiment_v1",
+  "selection_budget": 48,
+  "selection_seed": 20261004
+}
